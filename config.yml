@@ -1,26 +1,12 @@
-title: b3ps1
+title: b3ps3
 style: https://optgeo.github.io/b3p/style.json
 chapters:
   -
-    title: 平成新山
-    description: 粘り気の強いデイサイトマグマが、火山の上に盛り上がってできた溶岩ドームです。
-    hash: 14.13/32.7633/130.3011/-116.8/60
+    title: 迎賓館赤坂離宮
+    hash: 17.2/35.680567/139.72849/155.1/57
   -
-    title: 佐世保工業高等専門学校
-    description: 長崎県内唯一の高等専門学校です。
-    hash: 17.77/33.149697/129.748356/64.8/62
-  -
-    title: 富士山
-    description: 静岡県と山梨県にまたがる活火山です。
-    hash: 13.6/35.34613/138.73779/0/82
-  -
-    title: 対馬空港
-    description: 愛称は対馬やまねこ空港です。
-    hash: 13.84/34.28454/129.33033
-  - 
-    title: 奥多摩湖
-    description: 正式名称は小河内貯水池です。
-    hash: 14.95/35.7801/139.03488/173.9/59
+    title: 国立競技場
+    hash: 16.82/35.678223/139.714419/155.1/57
 footer: >-
   <p>YAML と GitHub Actions と
   <a href='https://optgeo.github.io/b3p/#15.7/35.680899/139.766841/0/49'>b3p</a>で
