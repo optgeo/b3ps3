@@ -104,6 +104,81 @@ const config = {
         "bearing": -28.0,
         "pitch": 52.0
       }
+    },
+    {
+      "tilte": "日本赤十字社",
+      "hash": "18.51/35.6601557/139.7533803/156.7/50",
+      "id": "chapter-5",
+      "alignment": "right",
+      "callback": null,
+      "hidden": false,
+      "mapAnimation": "flyTo",
+      "rotateAnimation": true,
+      "onChapterEnter": [
+
+      ],
+      "onChapterExit": [
+
+      ],
+      "location": {
+        "zoom": 18.51,
+        "center": [
+          139.7533803,
+          35.6601557
+        ],
+        "bearing": 156.7,
+        "pitch": 50.0
+      }
+    },
+    {
+      "title": "米国大使館",
+      "hash": "17.78/35.668679/139.743314/-138.5/56",
+      "id": "chapter-6",
+      "alignment": "right",
+      "callback": null,
+      "hidden": false,
+      "mapAnimation": "flyTo",
+      "rotateAnimation": true,
+      "onChapterEnter": [
+
+      ],
+      "onChapterExit": [
+
+      ],
+      "location": {
+        "zoom": 17.78,
+        "center": [
+          139.743314,
+          35.668679
+        ],
+        "bearing": -138.5,
+        "pitch": 56.0
+      }
+    },
+    {
+      "title": "首相官邸及び公邸",
+      "hash": "17.56/35.672891/139.74327/-151.3/57",
+      "id": "chapter-7",
+      "alignment": "right",
+      "callback": null,
+      "hidden": false,
+      "mapAnimation": "flyTo",
+      "rotateAnimation": true,
+      "onChapterEnter": [
+
+      ],
+      "onChapterExit": [
+
+      ],
+      "location": {
+        "zoom": 17.56,
+        "center": [
+          139.74327,
+          35.672891
+        ],
+        "bearing": -151.3,
+        "pitch": 57.0
+      }
     }
   ],
   "footer": "<p>YAML と GitHub Actions と <a href='https://optgeo.github.io/b3p/#15.7/35.680899/139.766841/0/49'>b3p</a>で <a href='https://github.com/mapbox/storytelling'>storytelling</a>しています。</p> <p>このプロジェクトは、 <a href='https://github.com/optgeo'>Adopt Geodata プロジェクト</a>の一環です。</p> <p>地理空間情報は人間の安全保障に貢献するデータですが、 人々のプライバシーや社会の安全に関わる悪用も可能な情報です。</p> <p>適切な<a href='https://ggim.un.org/'>情報管理</a>を行い、 <a href='https://www.mofa.go.jp/mofaj/files/100167362.pdf'>信頼を大切に</a>しながら <a href='https://www.cas.go.jp/jp/seisaku/sokuitiri/index.html'>地理空間情報の活用を推進</a> しましょう。</p>",
