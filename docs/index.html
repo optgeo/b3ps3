@@ -11,63 +11,6 @@
 <script src="https://unpkg.com/scrollama"></script>
 </head>
 <body>
-<div id="map"></div>
-<div id="story"></div>
-
-<script type="module">
-import { YAML } from "https://js.sabae.cc/YAML.js";
-
-const TOKEN = 'pk.eyJ1IjoiaGZ1IiwiYSI6ImlRSGJVUTAifQ.rTx380smyvPc1gUfZv1cmw';
-const ALIGNMENT = 'right';
-const ROTATE = true;
-
-const process = (config) => {
-  config.accessToken = TOKEN;
-  config.theme = 'light';
-  config.showMarkers = false;
-  let n = 0;
-  config.chapters.forEach((chapter) => {
-    n += 1;
-    chapter.id = `chapter-${n}`;
-    chapter.alignment = ALIGNMENT;
-    chapter.callback = null;
-    chapter.hidden = false;
-    chapter.mapAnimation = 'flyTo';
-    chapter.rotateAnimation = ROTATE;
-    chapter.onChapterEnter = [];
-    chapter.onChapterExit = [];
-    const r = chapter.hash.split('/');
-    console.log(n, r);
-    chapter.location = {
-      zoom: r[0],
-      center: [
-        r[2],
-        r[1]
-      ],
-      bearing: r[3],
-      pitch: r[4]
-    };
-  });
-  return config;
-};
-
-const getYAML = () => {
-  const sc = document.querySelectorAll("script");
-  for (const s of sc) {
-    if (s.type == "text/yaml") {
-      return s.textContent;
-    }
-  }
-  return null;
-};
-const yml = getYAML();
-if (!yml) {
-  alert("error: not found YAML");
-} else {
-  window.config = process(YAML.parse(yml));
-}
-</script>
-<script src="https://optgeo.github.io/s/module.js" type="module"></script>
 
 <script type="text/yaml">
 title: b3ps3
@@ -141,5 +84,62 @@ footer: >-
   しましょう。</p>
 </script>
 
+<div id="map"></div>
+<div id="story"></div>
+
+<script type="module">
+import { YAML } from "https://js.sabae.cc/YAML.js";
+
+const TOKEN = 'pk.eyJ1IjoiaGZ1IiwiYSI6ImlRSGJVUTAifQ.rTx380smyvPc1gUfZv1cmw';
+const ALIGNMENT = 'right';
+const ROTATE = true;
+
+const process = (config) => {
+  config.accessToken = TOKEN;
+  config.theme = 'light';
+  config.showMarkers = false;
+  let n = 0;
+  config.chapters.forEach((chapter) => {
+    n += 1;
+    chapter.id = `chapter-${n}`;
+    chapter.alignment = ALIGNMENT;
+    chapter.callback = null;
+    chapter.hidden = false;
+    chapter.mapAnimation = 'flyTo';
+    chapter.rotateAnimation = ROTATE;
+    chapter.onChapterEnter = [];
+    chapter.onChapterExit = [];
+    const r = chapter.hash.split('/');
+    console.log(n, r);
+    chapter.location = {
+      zoom: r[0],
+      center: [
+        r[2],
+        r[1]
+      ],
+      bearing: r[3],
+      pitch: r[4]
+    };
+  });
+  return config;
+};
+
+const getYAML = () => {
+  const sc = document.querySelectorAll("script");
+  for (const s of sc) {
+    if (s.type == "text/yaml") {
+      return s.textContent;
+    }
+  }
+  return null;
+};
+const yml = getYAML();
+if (!yml) {
+  alert("error: not found YAML");
+} else {
+  window.config = process(YAML.parse(yml));
+}
+</script>
+<script src="https://optgeo.github.io/s/module.js" type="module"></script>
 </body>
 </html>
