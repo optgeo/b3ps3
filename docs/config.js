@@ -106,7 +106,7 @@ const config = {
       }
     },
     {
-      "tilte": "日本赤十字社",
+      "title": "日本赤十字社",
       "hash": "18.51/35.6601557/139.7533803/156.7/50",
       "id": "chapter-5",
       "alignment": "right",
@@ -228,6 +228,31 @@ const config = {
         ],
         "bearing": -140.0,
         "pitch": 22.0
+      }
+    },
+    {
+      "title": "日本武道館",
+      "hash": "16.74/35.693162/139.750221/128.2/66",
+      "id": "chapter-10",
+      "alignment": "right",
+      "callback": null,
+      "hidden": false,
+      "mapAnimation": "flyTo",
+      "rotateAnimation": true,
+      "onChapterEnter": [
+
+      ],
+      "onChapterExit": [
+
+      ],
+      "location": {
+        "zoom": 16.74,
+        "center": [
+          139.750221,
+          35.693162
+        ],
+        "bearing": 128.2,
+        "pitch": 66.0
       }
     }
   ],
