@@ -4,6 +4,7 @@ const config = {
   "chapters": [
     {
       "title": "迎賓館赤坂離宮",
+      "description": "外国の国家元首や政府の長などの国賓を迎え入れた時に、会食や宿泊等の接遇を行う施設です。",
       "hash": "17.2/35.680567/139.72849/155.1/57",
       "id": "chapter-1",
       "alignment": "right",
@@ -29,6 +30,7 @@ const config = {
     },
     {
       "title": "国立競技場",
+      "description": "日本スポーツ振興センターが管理・運営している国立競技場です。",
       "hash": "16.82/35.678223/139.714419/155.1/57",
       "id": "chapter-2",
       "alignment": "right",
@@ -50,6 +52,32 @@ const config = {
         ],
         "bearing": 155.1,
         "pitch": 57.0
+      }
+    },
+    {
+      "title": "浜離宮恩賜庭園",
+      "description": "潮入の池と二つの鴨場をもつ江戸時代の代表的な大名庭園です。",
+      "hash": "16.35/35.660257/139.763079/124.5/61",
+      "id": "chapter-3",
+      "alignment": "right",
+      "callback": null,
+      "hidden": false,
+      "mapAnimation": "flyTo",
+      "rotateAnimation": true,
+      "onChapterEnter": [
+
+      ],
+      "onChapterExit": [
+
+      ],
+      "location": {
+        "zoom": 16.35,
+        "center": [
+          139.763079,
+          35.660257
+        ],
+        "bearing": 124.5,
+        "pitch": 61.0
       }
     }
   ],
