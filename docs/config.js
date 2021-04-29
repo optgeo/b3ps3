@@ -279,6 +279,56 @@ const config = {
         "bearing": -167.8,
         "pitch": 57.0
       }
+    },
+    {
+      "title": "東京国立近代美術館",
+      "hash": "18.69/35.6904439/139.754459/-122.2/72",
+      "id": "chapter-12",
+      "alignment": "right",
+      "callback": null,
+      "hidden": false,
+      "mapAnimation": "flyTo",
+      "rotateAnimation": true,
+      "onChapterEnter": [
+
+      ],
+      "onChapterExit": [
+
+      ],
+      "location": {
+        "zoom": 18.69,
+        "center": [
+          139.754459,
+          35.6904439
+        ],
+        "bearing": -122.2,
+        "pitch": 72.0
+      }
+    },
+    {
+      "title": "憲政記念館",
+      "hash": "18.31/35.678313/139.746953/-163/55",
+      "id": "chapter-13",
+      "alignment": "right",
+      "callback": null,
+      "hidden": false,
+      "mapAnimation": "flyTo",
+      "rotateAnimation": true,
+      "onChapterEnter": [
+
+      ],
+      "onChapterExit": [
+
+      ],
+      "location": {
+        "zoom": 18.31,
+        "center": [
+          139.746953,
+          35.678313
+        ],
+        "bearing": -163.0,
+        "pitch": 55.0
+      }
     }
   ],
   "footer": "<p>YAML と GitHub Actions と <a href='https://optgeo.github.io/b3p/#15.7/35.680899/139.766841/0/49'>b3p</a>で <a href='https://github.com/mapbox/storytelling'>storytelling</a>しています。</p> <p>このプロジェクトは、 <a href='https://github.com/optgeo'>Adopt Geodata プロジェクト</a>の一環です。</p> <p>地理空間情報は人間の安全保障に貢献するデータですが、 人々のプライバシーや社会の安全に関わる悪用も可能な情報です。</p> <p>適切な<a href='https://ggim.un.org/'>情報管理</a>を行い、 <a href='https://www.mofa.go.jp/mofaj/files/100167362.pdf'>信頼を大切に</a>しながら <a href='https://www.cas.go.jp/jp/seisaku/sokuitiri/index.html'>地理空間情報の活用を推進</a> しましょう。</p>",
