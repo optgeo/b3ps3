@@ -404,6 +404,31 @@ const config = {
         "bearing": 154.0,
         "pitch": 66.0
       }
+    },
+    {
+      "title": "国立感染症研究所",
+      "hash": "17.66/35.704291/139.717656/85.4/52",
+      "id": "chapter-17",
+      "alignment": "right",
+      "callback": null,
+      "hidden": false,
+      "mapAnimation": "flyTo",
+      "rotateAnimation": true,
+      "onChapterEnter": [
+
+      ],
+      "onChapterExit": [
+
+      ],
+      "location": {
+        "zoom": 17.66,
+        "center": [
+          139.717656,
+          35.704291
+        ],
+        "bearing": 85.4,
+        "pitch": 52.0
+      }
     }
   ],
   "footer": "<p>YAML と GitHub Actions と <a href='https://optgeo.github.io/b3p/#15.7/35.680899/139.766841/0/49'>b3p</a>で <a href='https://github.com/mapbox/storytelling'>storytelling</a>しています。</p> <p>このプロジェクトは、 <a href='https://github.com/optgeo'>Adopt Geodata プロジェクト</a>の一環です。</p> <p>地理空間情報は人間の安全保障に貢献するデータですが、 人々のプライバシーや社会の安全に関わる悪用も可能な情報です。</p> <p>適切な<a href='https://ggim.un.org/'>情報管理</a>を行い、 <a href='https://www.mofa.go.jp/mofaj/files/100167362.pdf'>信頼を大切に</a>しながら <a href='https://www.cas.go.jp/jp/seisaku/sokuitiri/index.html'>地理空間情報の活用を推進</a> しましょう。</p>",
