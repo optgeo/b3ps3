@@ -1,11 +1,10 @@
 const config = {
-  "title": "b3ps1",
+  "title": "b3ps3",
   "style": "https://optgeo.github.io/b3p/style.json",
   "chapters": [
     {
-      "title": "平成新山",
-      "description": "粘り気の強いデイサイトマグマが、火山の上に盛り上がってできた溶岩ドームです。",
-      "hash": "14.13/32.7633/130.3011/-116.8/60",
+      "title": "迎賓館赤坂離宮",
+      "hash": "17.2/35.680567/139.72849/155.1/57",
       "id": "chapter-1",
       "alignment": "right",
       "callback": null,
@@ -19,19 +18,18 @@ const config = {
 
       ],
       "location": {
-        "zoom": 14.13,
+        "zoom": 17.2,
         "center": [
-          130.3011,
-          32.7633
+          139.72849,
+          35.680567
         ],
-        "bearing": -116.8,
-        "pitch": 60.0
+        "bearing": 155.1,
+        "pitch": 57.0
       }
     },
     {
-      "title": "佐世保工業高等専門学校",
-      "description": "長崎県内唯一の高等専門学校です。",
-      "hash": "17.77/33.149697/129.748356/64.8/62",
+      "title": "国立競技場",
+      "hash": "16.82/35.678223/139.714419/155.1/57",
       "id": "chapter-2",
       "alignment": "right",
       "callback": null,
@@ -45,91 +43,13 @@ const config = {
 
       ],
       "location": {
-        "zoom": 17.77,
+        "zoom": 16.82,
         "center": [
-          129.748356,
-          33.149697
+          139.714419,
+          35.678223
         ],
-        "bearing": 64.8,
-        "pitch": 62.0
-      }
-    },
-    {
-      "title": "富士山",
-      "description": "静岡県と山梨県にまたがる活火山です。",
-      "hash": "13.6/35.34613/138.73779/0/82",
-      "id": "chapter-3",
-      "alignment": "right",
-      "callback": null,
-      "hidden": false,
-      "mapAnimation": "flyTo",
-      "rotateAnimation": true,
-      "onChapterEnter": [
-
-      ],
-      "onChapterExit": [
-
-      ],
-      "location": {
-        "zoom": 13.6,
-        "center": [
-          138.73779,
-          35.34613
-        ],
-        "bearing": 0.0,
-        "pitch": 82.0
-      }
-    },
-    {
-      "title": "対馬空港",
-      "description": "愛称は対馬やまねこ空港です。",
-      "hash": "13.84/34.28454/129.33033",
-      "id": "chapter-4",
-      "alignment": "right",
-      "callback": null,
-      "hidden": false,
-      "mapAnimation": "flyTo",
-      "rotateAnimation": true,
-      "onChapterEnter": [
-
-      ],
-      "onChapterExit": [
-
-      ],
-      "location": {
-        "zoom": 13.84,
-        "center": [
-          129.33033,
-          34.28454
-        ],
-        "bearing": null,
-        "pitch": null
-      }
-    },
-    {
-      "title": "奥多摩湖",
-      "description": "正式名称は小河内貯水池です。",
-      "hash": "14.95/35.7801/139.03488/173.9/59",
-      "id": "chapter-5",
-      "alignment": "right",
-      "callback": null,
-      "hidden": false,
-      "mapAnimation": "flyTo",
-      "rotateAnimation": true,
-      "onChapterEnter": [
-
-      ],
-      "onChapterExit": [
-
-      ],
-      "location": {
-        "zoom": 14.95,
-        "center": [
-          139.03488,
-          35.7801
-        ],
-        "bearing": 173.9,
-        "pitch": 59.0
+        "bearing": 155.1,
+        "pitch": 57.0
       }
     }
   ],
